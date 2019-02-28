@@ -4,4 +4,5 @@ def my_each(array)
     yield(word)
   x +=1 
 end
+end 
 
