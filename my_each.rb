@@ -2,7 +2,7 @@ def my_each(array)
   x = 0 
   while x < array.length do
     yield(array)
-    array[x].to_s 
+    array.first
   x +=1 
   end
 end 
